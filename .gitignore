@@ -1,0 +1,21 @@
+# Raw dataset files -- never commit large real-world datasets to Git
+data/**
+!data/.gitkeep
+
+# MATLAB
+*.asv
+*.m~
+slprj/
+codegen/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+
+# MATLAB-generated result caches (kept out of Git; results/*.png are the
+# tracked deliverables and are NOT covered by this rule)
+*.mat
+
+# Windows folder settings
+desktop.ini

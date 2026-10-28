@@ -1,0 +1,4 @@
+Place downloaded dataset files here (e.g. data/radical/indoor_sample_50.h5).
+This directory's contents are excluded from Git via .gitignore -- see
+docs/dataset_notes.md for the download link, licence, and citation
+requirement for the dataset used by this project (RaDICaL).
